@@ -3,7 +3,7 @@ name: Classroom Workflow
 on:
   push: 
     paths:
-      - 'scripts/session-6/**'
+      - 'scripts/session_6/**'
 
 jobs:
   build:
@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Display file contents
-        run: cat scripts/session-6/*
+        run: cat scripts/session_6/*
